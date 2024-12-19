@@ -4,5 +4,6 @@
     <head>
         <link rel="icon" type="image/png" src="Magento_Theme::favicon/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" src="Magento_Theme::favicon/favicon.svg" />
+        <css src="css/styles.css" />
     </head>
 </page>

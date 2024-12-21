@@ -5,9 +5,7 @@
     <body>
 
         <move element="page.main.title" destination="main" before="-" />
-
         <move element="product.info.type" destination="alert.urls" before="-" />
-
 
     </body>
 </page>

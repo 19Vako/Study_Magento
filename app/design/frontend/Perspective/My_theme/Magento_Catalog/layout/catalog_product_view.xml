@@ -12,6 +12,11 @@
     <update handle="catalog_product_opengraph" />
     <update handle="page_calendar"/>
     <body>
+        <block class="Magento\Framework\View\Element\Template" name="contact_us_custom_text" template="Magento_Theme::contact/custom_text.phtml">
+            <arguments>
+                <argument name="custom_text" xsi:type="string">Це мій власний текст для сторінки Contact Us</argument>
+            </arguments>
+        </block>
         <attribute name="itemtype" value="http://schema.org/Product" />
         <attribute name="itemscope" value="itemscope"/>
         <referenceBlock name="head.components">

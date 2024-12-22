@@ -69,12 +69,6 @@ return [
     ],
     'x-frame-options' => 'SAMEORIGIN',
     'MAGE_MODE' => 'developer',
-    /*'http_cache_hosts' => [
-        [
-            'host' => 'varnish',
-            'port' => '80'
-        ]*/
-   /* ],*/
     'session' => [
         'save' => 'files',
         'file' => [

@@ -36,3 +36,10 @@
 .item.product.product-item .product-item-photo:hover img {
     opacity: 0.8;
 }
+
+
+
+
+.product.data.items > .item.title.active > .switch, .product.data.items > .item.title.active > .switch:focus, .product.data.items > .item.title.active > .switch:hover {
+    color: tomato !important;
+}

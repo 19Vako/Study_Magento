@@ -18,3 +18,21 @@
     background-color: tomato;
     border-right: 15px;
 }
+
+
+.item.product.product-item .product-item-photo {
+    position: relative;
+    overflow: hidden;
+}
+
+.item.product.product-item .product-item-photo img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.item.product.product-item .product-item-photo:hover img {
+    transform: scale(1.1);
+}
+
+.item.product.product-item .product-item-photo:hover img {
+    opacity: 0.8;
+}

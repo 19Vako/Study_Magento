@@ -43,3 +43,12 @@
 .product.data.items > .item.title.active > .switch, .product.data.items > .item.title.active > .switch:focus, .product.data.items > .item.title.active > .switch:hover {
     color: tomato !important;
 }
+
+
+.rating-summary .rating-result > span:before {
+    content: '\2015 \2015 \2015 \2015 \2015' !important;
+}
+
+.rating-summary .rating-result:before {
+    content: '\2015 \2015 \2015 \2015 \2015' !important;
+}
